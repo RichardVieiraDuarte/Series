@@ -42,8 +42,9 @@ public class Serie {
     }
 
     public boolean getNota() {
-        if (nota >= 0 && nota<=0)
-        return true;
+        if (nota >= 0 && nota<=0){
+        return true;}
+        return false;
     }
 
     public void setNota(double nota) {
